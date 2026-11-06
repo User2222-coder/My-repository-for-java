@@ -1,0 +1,17 @@
+<project xmlns="http://apache.org" 
+         xmlns:xsi="http://w3.org" 
+         xsi:schemaLocation="http://apache.org https://apache.org">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>myapp</groupId>
+  <artifactId>databaseproject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- This line forces Eclipse to download the real, working database driver safely -->
+    <dependency>
+        <groupId>org.xerial</groupId>
+        <artifactId>sqlite-jdbc</artifactId>
+        <version>3.45.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
